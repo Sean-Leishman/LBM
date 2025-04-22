@@ -1,0 +1,19 @@
+% Geometry
+888         % Nx: number of lattice nodes along the x-axis (periodic)
+1433          % Ny: number of lattice nodes along the y-axis (including two wall nodes)
+12          % fingerNum: number of fingers
+284          % fingerDepth: depth of finger
+48          % fingerWidth: width of finger
+48          % fingerOpening: width of finger opening
+% Fluid and flow properties
+1.5        % tau: relaxation time for Navier-Stokes equation (viscosity = (tau - 0.5) / 3)
+1.13        % tauG: relaxation time for advection-diffusion equation (diffusion = (tauG - 0.5) / 3)
+0.00000000712    % gravity: force density due to gravity (in positive x-direction)
+0.00703        % velWall: velocity of "fluid wall" in main channel
+0.001       % reactionRate: rate of solute consumption
+% Simulation control
+1000000000       % tNum: number of time steps (running from 1 to tNum)
+5000       % tDiffOn: number of time steps after which diffusion is switched on
+1000        % tInfo: info time step (screen message will be printed every tInfo step)
+5000        % tVTK: disk write time step for VTK files
+100         % tData: disk write time step for data output
