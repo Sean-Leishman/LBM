@@ -1,0 +1,53 @@
+
+Case 283 (shared across 2 sets; extreme of set 3)
+
+Case 287 (extreme of set 3)
+
+Case 286 (extreme of set 2)
+
+/
+
+Case 285 (extreme of set 4)
+
+Case 289 (extreme of set 4, middle set 3)
+
+Case 288 
+
+Case 291 (complete set 4)
+
+Case 290 (complete set 3) 
+
+Case 284 (complete set 2)
+
+
+----Sets----
+Set 2 (fix unit length; vary w, s): 
+
+Set 3 (vary s, fix w): 
+
+Set 4 (vary w, fix s): 
+
+----List----
+272 (Da) Done
+273 (Da) Running Shell
+274 (Da) Queued Shell
+275 (Da) Queued Shell
+
+281 (Set 2) Done
+282 (Set 2) Running RD
+283 (Set 2/3) 
+284 (Set 2) 
+285 (Set 2/4) 
+286 (Set 2) 
+
+287 (Set 3)
+288 (Set 3) 
+289 (Set 3/4) 
+290 (Set 3) 
+*283 (Set 2/3)
+
+*289 (Set 3/4)
+291 
+*285 (Set 2/4)
+
+*duplicated - belongs in 2 sets

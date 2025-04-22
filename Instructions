@@ -1,0 +1,23 @@
+Notes
+pwd %tells you the currrent directory 
+cd %to navigate into next directory level
+
+To run:
+>Home>RDS>Case__ copy the parameter file from here into >Home>Simulations 
+
+Terminal -- 
+pwd 					%to check whether you are in the correct directory
+cd Simulations				%to navigate to the current drive 
+g++ ADEv8.cc -O3 -o binary		%to open a new file called binary using simulation code
+./binary				%to run binary 
+
+To save files: 
+Copy and paste following files
+'binary'
+'vtk_fluid' folder
+'Data.dat'
+'parameters.dat'
+'ReactionProfile.dat' 
+into the >Home>RDS>>Simulations>Case - whichever case number
+
+ssh vlx
